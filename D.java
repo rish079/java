@@ -10,6 +10,7 @@ public class ThreadDemo{
 		myRunnable r = new myRunnable();
 		Thread t = new Thread(r);
 		t.start();
+		t.run();
 		for(int i =0;i<10;i++){
 			System.out.println("Main Thread");
 		}
